@@ -5,7 +5,7 @@ A browser-based **Flappy Bird–inspired game** built using web technologies. Th
 ---
 
 ## 🎮 Demo
-🔗 Live Demo: *()*
+🔗 Live Demo: https://aniket7483.github.io/Flappy_Bird/
 
 ---
 
@@ -23,7 +23,6 @@ A browser-based **Flappy Bird–inspired game** built using web technologies. Th
 - **HTML5**
 - **CSS3**
 - **JavaScript (Vanilla JS)**
-- *(Canvas API – if used)*
 
 ---
 
