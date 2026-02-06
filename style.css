@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #70c5ce;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  #game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border: 2px solid #000;
+    overflow: hidden;
+  }
+  
+  #bird {
+    position: absolute;
+    width: 40px; /* Adjust size based on your preference */
+    height: auto; /* Maintain aspect ratio */
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+  }
+  
+  
+  #pipe {
+    position: absolute;
+    width: 50px;
+    height: 200px;
+    background-color: green;
+    bottom: 0;
+    right: -50px;
+  }
+  #score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 10;
+  }
+  #restart-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none; /* Hidden initially */
+  z-index: 1000;
+}
+
+#restart-btn:hover {
+  background-color: #218838;
+}
+
+    
